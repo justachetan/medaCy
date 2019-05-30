@@ -61,8 +61,7 @@ setup(
         'tabulate>=0.8.2',
         'pathos>=0.2.2.1',
         'msgpack>=0.3.0,<0.6',
-        'msgpack-numpy<0.4.4.0',
-        'en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz#egg=en_core_web_sm-2.0.0'
+        'msgpack-numpy<0.4.4.0'
     ],
     tests_require=["pytest", "pytest-cov", "medacy_dataset_end==1.0.3"],
     cmdclass={"pytest": PyTest},
